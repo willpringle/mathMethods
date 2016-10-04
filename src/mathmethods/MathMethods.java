@@ -13,7 +13,7 @@ package mathmethods;
 public class MathMethods {
 
     /**
-     * MAIN METHOD FOR PROGRAM
+     * MAIN METHOD FOR PR0GRAM
      * @param args the command line arguments
      */
     public static void main(String[] args) {
