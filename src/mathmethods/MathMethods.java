@@ -17,8 +17,10 @@ public class MathMethods {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // SET GUI RESOLOUTION
-        
+        // SET UP THE GUI
+        jframe form = new jframe(); 
+        form.setVisible(true);
+        form.setResizable(true);
     }
     
     /**
@@ -27,6 +29,17 @@ public class MathMethods {
     public static void voidMethod(){
         // PRINT "Hello" ON THE LINE
         System.out.print("Hello");
+    }
+    
+    /**
+     * Boolean method that returns a boolean if called
+     */
+    public static boolean booleanMethod(){
+        // DECLARE boolean AND INITIALIZE AS false
+        boolean trueOrFalse=false;
+        
+        // RETURN boolean VALUE
+        return trueOrFalse;
     }
     
 }
